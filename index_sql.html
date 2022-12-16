@@ -1,0 +1,39 @@
+<html>
+    <head> <!- This is the head of the html in the head part we have style tags-> 
+        <meta name="viewport" content="width=device-width initial-scale =1">
+        <Title> Sports Form</Title> <!- this is the Title of our form.->
+        <style>
+            table{
+                border-collapse:collapse;
+				
+            }
+            
+			
+        </style>
+    </head>
+    <body style="background-color:"> <!- Body tag is where we add our whole content->
+        <form  name="sport's form " action="index_sql.php" method="post"> <!- This is the form tag here we have used the action and method attributes->
+            <table width="75%" height="75%" border="1px" border-color="black" cellspacing="2" cellpadding="2" > <!- This is the table tag. It is used to create a table->
+                <tr>    <!- tr means table rows, tr tag is used to add rows to our table.->
+                    <td colspan="2" align="center"><b>Cancellation checkbox</b></td> <!- td stands for table data ,td tag is used to add columns to our table.->
+                </tr>
+                
+                <tr>
+                    <td>Select Date </td>
+                    <td><input type="date" name="date" required >
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="Submit" name="Submit" value="Submit"> <!- Here we used input as submit ->
+                        <input type="Reset" name="Reset" value="Reset"></td> <!- Here we used input as reset->
+                </tr>
+    
+
+            </table>
+        </form>
+        
+    </body>
+</html>
